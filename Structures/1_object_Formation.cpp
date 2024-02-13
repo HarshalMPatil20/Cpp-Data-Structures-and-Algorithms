@@ -21,7 +21,9 @@ rectangle r[2];           /* 3. Array */
 
 int main() {
 
-    struct rectangle r1={"aaaa",10, 5,'a',{'a','a'}};
+    rectangle r1={"aaaa",10, 5,'a',{'a','a'}};
+    // In C program, 'struct' is mandatory before 'rectangle'
+    
     cout << r1.length << endl;
     cout << r1.breadth << endl;
     cout << r1.name << endl;
