@@ -27,26 +27,44 @@ int main() {
 
 // 2. Directly Creating object in Heap 
     rectangle *x;
+    rectangle *y;
     rectangle *k;
+    rectangle *l;
     
     // Using C method- malloc()
     x = (struct rectangle *) malloc(sizeof(rectangle));
+    y = (struct rectangle *) malloc(sizeof(rectangle) * 10);  //Array
 
     // Using C++ method - new object
     k = new rectangle;
-     
+    l = new rectangle[10];  //Array
+
     // value Assignment
-    x->length=15;
-    x->breadth=10;
-
-    k->length=25;
-    k->breadth=20;
-
+    x->length=15;       // (*x).length=15 ......... Alternate Method
+    x->breadth=10;      // (*x).breadth=10 
     
+
+    y[0].length=25;
+    y[0].breadth=20;
+
+    k->length=35;      // (*k).length=35; ......... Alternate Method
+    k->breadth=30;     // (*k).breadth=30;
+
+    l[0].length=45;
+    l[0].breadth=40;
+
+    // Printing
     cout<< x->length << endl;
     cout<< x->breadth << endl;
+
+    cout<< y[0].length << endl;
+    cout<< y[0].breadth << endl;
+
     cout<< k->length << endl;
     cout<< k->breadth << endl;
+
+    cout<< l[0].length << endl;
+    cout<< l[0].breadth << endl;
 
 
     return 0;
