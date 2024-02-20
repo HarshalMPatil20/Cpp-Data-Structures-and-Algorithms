@@ -19,7 +19,7 @@ int main() {
     int* k;
 
     j = A;       /* Store 'A' Array's address in pointer 'k' */
-               /* Note- Didn't Used '&' as array name is directly an address of Array*/
+               // ! Note- Didn't Used '&', as array name is directly an address of Array
     
     k = &A[0];   /* Another way to Store Address*/
 

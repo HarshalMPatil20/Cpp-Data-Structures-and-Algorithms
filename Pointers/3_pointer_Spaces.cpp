@@ -24,9 +24,9 @@ int main() {
 
     /* Conclusion- Pointer variable have fixed space 
                   for, 32 byte machine - 4 bytes
-                       64 byte machine - 8 bytes
+                       64 byte machine - 8 bytes  */
 
-    -- Its Independent of the datatype of pointer 
-       because it's only use to store addresses
-    */
+    // ! Its Independent of the datatype of pointer because it's only use to store addresses
+       
+    
 }

@@ -15,7 +15,7 @@ int main() {
     for(int i=0;i<5;i++)
     cout<<i<<" "<<p[i]<<endl;
 
-    free(p);      /* Free allocated memory*/
+    free(p);      /* ? Free allocated memory*/
 
 
 
