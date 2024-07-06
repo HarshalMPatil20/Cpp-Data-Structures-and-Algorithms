@@ -1,14 +1,17 @@
 
 
-<img src="src/cpp.png" alt="image" width="50" height="50" >&nbsp;
+
 
 <img src="src/header.jpg" alt="image" >
 
 <!-- [![Alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230703144619/CPP-Language.png)](https://isocpp.org/) -->
 
-# C++ Data Structures and Algorithms
+# C++ Data Structures and Algorithms 
+
 
 Welcome to the C++ Data Structures and Algorithms repository! This repository is dedicated to providing a comprehensive collection of Data Structures and Algorithms implemented in C++.
+
+
 
 ## Table of Contents
 
@@ -23,7 +26,8 @@ Welcome to the C++ Data Structures and Algorithms repository! This repository is
 
 This repository aims to help you understand and implement various data structures and algorithms in C++. Each topic includes a detailed explanation, example code, and sample problems to practice.
 
-## Why C++ for DSA
+## Why C++ for DSA ?
+<img src="src/cpp.png" alt="image" width="60" height="60" >&nbsp;
 
 C++ is a powerful language that is widely used in competitive programming and software development due to its efficiency and control over system resources. It provides various features such as:
 
@@ -31,12 +35,29 @@ C++ is a powerful language that is widely used in competitive programming and so
 - **Performance:** C++ is known for its high performance and fine-grained control over memory.
 - **Flexibility:** Supports both high-level and low-level programming.
 
+## Essential Concept of C and C++ 
+
+
+
+To effectively use this repository, a good understanding of the following C++ concepts is recommended:
+
+- **Basic Syntax:** Variables, Data Types, Operators, and Control Flow (if, else, switch, loops)
+- [**Functions:**](Functions\Readme.md) Declaration, Definition, Overloading, and Inline Functions
+- [**Pointers and References:**](Pointers%20and%20References\Readme.md) Pointer Arithmetic, Dereferencing, Function Pointers, and Reference Variables
+- **Dynamic Memory Allocation:** `new`, `delete`, `malloc`, `free`
+
+- **Templates:** Function Templates, Class Templates, and the Standard Template Library (STL)
+- [**Recursion:**](Recursion\Readme.md) Base Cases, Recursive Calls, and Stack Memory Usage
+- [**Strings:**](Strings\string.cpp) Manipulation, Functions, and Usage in C++ (`std::string` and C-Style Strings)
+
+
+
 ## Data Structures
 
 Below is a list of data structures covered in this repository:
 
-- Arrays
-- Linked Lists
+
+- [Linked Lists]()
 - Stacks
 - Queues
 - Trees
@@ -91,14 +112,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Happy Coding!
-
-
-
-
-
-
-
-
 <div align="center">
   <a href="harshalmpatil210@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="30" height="30" alt="gmail logo"  />
