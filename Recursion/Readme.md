@@ -475,7 +475,7 @@ Recursion can be classified into several types `based on how the recursive calls
 Here are the Main types of recursion:
 
 
-- [Tail recursion](#tail-recursion)
+- [Tail recursion](#tail-recursion-)
 - [Head recursion]()
 - [Tree recursion]()
 - [Indirect recursion]()
