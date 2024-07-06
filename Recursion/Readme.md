@@ -508,16 +508,16 @@ int fun (int n)
 
 >[!NOTE]
 > The following example is not Tail Recursion.
-> ```cpp
-> int fun (int n)
-> {
->     if (n > 0)
->     {
->         cout << n << endl;
->         fun(n-1) + n; ;   // execution after call while returning 
->     }
-> }
->```
+ ```cpp
+ int fun (int n)
+ {
+     if (n > 0)
+     {
+         cout << n << endl;
+         fun(n-1) + n; ;   // execution after call while returning 
+     }
+ }
+```
 > As you can see in the below example, there is something written (+n) along with the function call i.e. some operation is going to be performed at the returning time. So, in this function, there is something remaining that has to be performed at returning time and hence cannot be tail recursion. Tail recursion means at returning time it doesn’t have to perform anything at all.
 
 &nbsp;
